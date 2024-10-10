@@ -13,7 +13,7 @@ const MainLayout = () => {
                 <Home/>
                 
             </main>
-            <footer className=' h-[200px] w-full bg-yellow-600'>  
+            <footer className=' h-[200px] w-full '>  
                 <Footer/>
             </footer>
         </>
