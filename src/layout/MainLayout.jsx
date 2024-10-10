@@ -6,11 +6,12 @@ import Footer from '../components/Footer'
 const MainLayout = () => {
     return (
         <>
-            <header  >
+            <header className='' >
                 <Header/>
             </header>
-            <main className='pt-[80px]  bg-gray-200 '>
+            <main className='pt-[80px]  bg-main2 '>
                 <Home/>
+                
             </main>
             <footer className=' h-[200px] w-full bg-yellow-600'>  
                 <Footer/>

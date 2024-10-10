@@ -10,6 +10,9 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      screens:{
+        "videopoint":"340px",
+      },
       colors: {
         "main": "#adccb7",
         "main2": "#ccc0ad",

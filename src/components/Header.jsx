@@ -34,9 +34,8 @@ const Header = () => {
     }, [lastScrollY]);
 
     return (
-        <div className={`bg-main/95  border-black/20 
-        shadow-lg border-b fixed z-50 w-full transition-all duration-300 ${navbarSize}`}>
-            <div className='bg-gray-300/90 w-full h-full'>
+        <div className={`fixed z-50 w-full transition-all duration-300 ${navbarSize} bg-yellow-300`}>
+            <div className=' w-full h-full'>
             <Navbar/>
             </div>
             

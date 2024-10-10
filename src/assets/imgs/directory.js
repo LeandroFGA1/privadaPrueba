@@ -13,6 +13,9 @@ import banner2 from "./banner2.png"
 import banner3 from "./banner3.png"
 import banner4 from "./banner4.png"
 import noLoad from "./noload.png"
+import icon1 from "./icon1.png"
+import icon2 from "./icon2.png"
+import logo from "./logo.png"
 
 export default {
     "card-bank":credit,
@@ -29,6 +32,9 @@ export default {
     "banner2":banner2,
     "banner3":banner3,
     "banner4":banner4,
-    "noload":noLoad
+    "noload":noLoad,
+    "icon1":icon1,
+    "icon2":icon2,
+    "logo":logo
 
 }

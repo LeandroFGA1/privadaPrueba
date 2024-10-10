@@ -5,6 +5,7 @@ import CardCategory from '../components/CardCategory'
 import CardCategoryGenerator from '../components/CardCategoryGenerator'
 import UnderlineTabs from '../components/UnderlineTabs'
 import OtherBanner from '../components/OtherBanner'
+import VideoPrueba from '../components/VideoPrueba'
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             <div className=''>
                 <UnderlineTabs/>
                 <OtherBanner/>
+                <VideoPrueba/>
             </div>
             
         </>
