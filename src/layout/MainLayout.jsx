@@ -9,7 +9,7 @@ const MainLayout = () => {
             <header className='' >
                 <Header/>
             </header>
-            <main className='pt-[80px]  bg-main2 '>
+            <main className='pt-[80px]   '>
                 <Home/>
                 
             </main>
