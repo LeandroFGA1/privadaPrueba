@@ -13,7 +13,11 @@ const MainLayout = () => {
                 <Home/>
                 
             </main>
+<<<<<<< HEAD
             <footer className=' h-[200px] w-full '>  
+=======
+            <footer className=' h-[200px] w-full bg-yellow-600'>  
+>>>>>>> 2622fc2 (v0)
                 <Footer/>
             </footer>
         </>
