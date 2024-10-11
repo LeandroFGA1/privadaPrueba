@@ -4,13 +4,13 @@ import sampleVideo from '../assets/videos/video.mp4'; // Asegúrate de que la ru
 
 const VideoPrueba = () => {
     return (
-        <div className="flex items-center justify-center flex-wrap px-10 h-[90vh] videopoint:h-[90vh] lg:h-[80vh]">
-            <div className="w-[90vw] h-full">
+        <div className="flex items-center justify-center  flex-wrap px-10  h-fit  ">
+            <div className="w-[90vw] h-full ">
                 <Card className="w-full h-full flex-col lg:flex-row min-w-[230px]">
                     <CardHeader
                         shadow={false}
                         floated={false}
-                        className="m-0 w-full lg:w-2/5 shrink-0 rounded-r-none flex items-center justify-center"
+                        className="m-0 w-full max-h-[500px] lg:w-2/5 shrink-0 rounded-r-none flex items-center justify-center"
                     >
                         {/* Reemplazamos la imagen con el video */}
                         <video 
@@ -19,7 +19,7 @@ const VideoPrueba = () => {
                             
                             muted 
                             controls 
-                            className='h-full object-cover min-w-[300px] hidden  videopoint:block'
+                            className='h-[90%] max-h[200px] object-cover min-w-[300px] hidden  videopoint:block'
                         >
                             Tu navegador no soporta la etiqueta de video.
                         </video>

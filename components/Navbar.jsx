@@ -8,11 +8,11 @@ const Navbar = () => {
                 <div className="container mx-auto flex items-center justify-between relative">
                     
                     {/* Botón para Pestañas en pantallas pequeñas */}
-                    <div className="lg:hidden relative">
+                    <div className="lg:hidden relative w-14">
                         {/* Aquí aplicamos el subrayado */}
-                        <div className="absolute w-full h-full flex items-center justify-center border-b-2 border-main3 transition-all hover:border-b-4">
+                        <div className="absolute w-full h-full flex items-center justify-center border-b-2 border-main3 transition-all hover:border-b-2 ">
                             <div>
-                                <img src={directory.icon1} alt="icono de pestañas" />
+                                <img src={directory.icon1} alt="icono de pestañas" className=' w-32' />
                             </div>
                         </div>
                         <Menu>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     </Typography>
 
                     {/* Botón de Accesos en pantallas pequeñas con subrayado */}
-                    <div className="lg:hidden relative">
+                    <div className="lg:hidden relative w-14">
                         <div className="absolute w-full h-full flex items-center justify-center border-b-2 border-main3 transition-all hover:border-b-4">
                         <div>
                                 <img src={directory.icon2} alt="icono de banner" />
